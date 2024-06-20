@@ -5,8 +5,8 @@ import torch
 app = Flask(__name__)
 
 # Load the saved model and tokenizer
-model_path = r"D:\CODES\BE-Mini-Projects\NLP-MiniProject\Model"
-tokenizer_path = r"D:\CODES\BE-Mini-Projects\NLP-MiniProject\Model"
+model_path = r"NLP-MiniProject\Your-Model-Path"
+tokenizer_path = r"NLP-MiniProject\Your-Model-Path"
 model = T5ForConditionalGeneration.from_pretrained(model_path)
 tokenizer = T5Tokenizer.from_pretrained(tokenizer_path)
 
