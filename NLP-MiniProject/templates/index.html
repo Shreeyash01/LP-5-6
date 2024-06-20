@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Query Generator</h1>
+        <form method="POST">
+            <label for="question">Enter your question:</label>
+            <input type="text" id="question" name="question" required>
+            <button type="submit">Generate Query</button>
+        </form>
+        {% if query %}
+        <div class="result">
+            <h2>Generated Query:</h2>
+            <p>{{ query }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
