@@ -51,7 +51,7 @@ Follow these steps to set up and run the project on your local machine.
 
     The project uses a pre-trained T5 model which is not included in this repository due to its size. You can download the model from the following link:
 
-    [Download Model](https://drive.google.com/drive/u/1/folders/1QI-w9iSVvaapQQquAJoT-RgsZHewFBpT)
+    [Download Model](https://drive.google.com/drive/u/0/folders/192mee0_jigPaLWu1g78atfkKO8_Kg30b)
 
     Once downloaded, place the model files in the `model` directory within the project structure.
 
